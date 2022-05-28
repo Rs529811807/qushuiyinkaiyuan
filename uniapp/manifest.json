@@ -1,0 +1,197 @@
+{
+    "name" : "短视频去水印",
+    "appid" : "__UNI__A50FA32",
+    "description" : "",
+    "versionName" : "1.0.0",
+    "versionCode" : 1,
+    "transformPx" : false,
+    "app-plus" : {
+        "compatible" : {
+            "ignoreVersion" : true //true表示忽略版本检查提示框，HBuilderX1.9.0及以上版本支持  
+        },
+        /* 5+App特有相关 */
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : false,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "modules" : {
+            "Share" : {},
+            "Payment" : {},
+            "OAuth" : {},
+            "Maps" : {}
+        },
+        /* 模块配置 */
+        "distribute" : {
+            "orientation" : [ "portrait-primary" ],
+            /* 应用发布信息 */
+            "android" : {
+                /* android打包配置 */
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ],
+                "schemes" : "baixin",
+                "abiFilters" : [ "armeabi-v7a", "arm64-v8a", "x86" ]
+            },
+            "ios" : {},
+            /* ios打包配置 */
+            "sdkConfigs" : {
+                "oauth" : {
+                    "weixin" : {
+                        "appid" : "wxae59a6d0b73f3c1d",
+                        "appsecret" : "c69c175938ecd80f8c1975a0c7f19ac6"
+                    }
+                },
+                "payment" : {
+                    "appleiap" : {},
+                    "alipay" : {},
+                    "weixin" : {
+                        "appid" : "wxae59a6d0b73f3c1d",
+                        "UniversalLinks" : ""
+                    }
+                },
+                "push" : {},
+                "share" : {
+                    "weixin" : {
+                        "appid" : "wxae59a6d0b73f3c1d",
+                        "appsecret" : "53313971fc1612d53670adbbddd3d4b2"
+                    }
+                },
+                "maps" : {
+                    "amap" : {
+                        "appkey_ios" : "6b91af488396f181aaa830a75f253081",
+                        "appkey_android" : "6b91af488396f181aaa830a75f253081"
+                    }
+                },
+                "statics" : {},
+                "ad" : {}
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                },
+                "ios" : {
+                    "appstore" : "unpackage/res/icons/1024x1024.png",
+                    "ipad" : {
+                        "app" : "unpackage/res/icons/76x76.png",
+                        "app@2x" : "unpackage/res/icons/152x152.png",
+                        "notification" : "unpackage/res/icons/20x20.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "settings" : "unpackage/res/icons/29x29.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "spotlight" : "unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/res/icons/120x120.png",
+                        "app@3x" : "unpackage/res/icons/180x180.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification@3x" : "unpackage/res/icons/60x60.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "settings@3x" : "unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
+                    }
+                }
+            },
+            "splashscreen" : {
+                "android" : {
+                    "hdpi" : "splash.png",
+                    "xhdpi" : "splash.png",
+                    "xxhdpi" : "splash.png"
+                },
+                "ios" : {
+                    "iphone" : {
+                        "portrait-896h@3x" : "splash.png",
+                        "landscape-896h@3x" : "splash.png",
+                        "portrait-896h@2x" : "splash.png",
+                        "landscape-896h@2x" : "splash.png",
+                        "iphonex" : "splash.png",
+                        "iphonexl" : "splash.png",
+                        "retina55" : "splash.png",
+                        "retina55l" : "splash.png",
+                        "retina47" : "splash.png",
+                        "retina47l" : "splash.png",
+                        "retina40" : "splash.png",
+                        "retina40l" : "splash.png",
+                        "retina35" : "splash.png"
+                    },
+                    "ipad" : {
+                        "portrait-1366h@2x" : "splash.png",
+                        "landscape-1366h@2x" : "splash.png",
+                        "portrait-1194h@2" : "unpackage/res/apps/splash.png",
+                        "landscape-1194h@2x" : "splash.png",
+                        "portrait-1112h@2x" : "splash.png",
+                        "landscape-1112h@2x" : "splash.png",
+                        "portrait-retina7" : "splash.png",
+                        "landscape-retina7" : "splash.png",
+                        "portrait7" : "splash.png",
+                        "landscape7" : "splash.png"
+                    }
+                },
+                "androidStyle" : "default",
+                "iosStyle" : "common"
+            }
+        },
+        "compilerVersion" : 3
+    },
+    /* SDK配置 */
+    "quickapp" : {},
+    /* 快应用特有相关 */
+    "mp-weixin" : {
+        "appid" : "wx0d14f9312c9d62ff",
+        "setting" : {
+            "urlCheck" : false,
+            "postcss" : false,
+            "es6" : false
+        },
+        "permission" : {}
+    },
+    "h5" : {
+        "devServer" : {
+            "port" : 80,
+            "https" : false
+        },
+        "title" : "",
+        "router" : {
+            "base" : "/h5"
+        },
+        "domain" : "https://damadaojia.com"
+    },
+    "networkTimeout" : {
+        "request" : 120000,
+        "uploadFile" : 120000,
+        "downloadFile" : 180000
+    },
+    "mp-baidu" : {
+        "usingComponents" : false
+    }
+}

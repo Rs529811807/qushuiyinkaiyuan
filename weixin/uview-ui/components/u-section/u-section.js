@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["uview-ui/components/u-section/u-section"],{7585:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var u={name:"u-section",props:{title:{type:String,default:""},subTitle:{type:String,default:"更多"},right:{type:Boolean,default:!0},fontSize:{type:[Number,String],default:28},bold:{type:Boolean,default:!0},color:{type:String,default:"#303133"},subColor:{type:String,default:"#909399"},showLine:{type:Boolean,default:!0},lineColor:{type:String,default:""},arrow:{type:Boolean,default:!0}},computed:{lineStyle:function(){return{left:-.9*Number(this.fontSize)+"rpx",top:-Number(this.fontSize)*("ios"==this.$u.os()?.14:.15)+"rpx"}}},methods:{rightClick:function(){this.$emit("click")}}};e.default=u},"8e6e":function(t,e,n){"use strict";var u=n("ad05"),o=n.n(u);o.a},ad05:function(t,e,n){},d824:function(t,e,n){"use strict";n.r(e);var u=n("e89a"),o=n("f832");for(var i in o)"default"!==i&&function(t){n.d(e,t,(function(){return o[t]}))}(i);n("8e6e");var r,a=n("f0c5"),l=Object(a["a"])(o["default"],u["b"],u["c"],!1,null,"1a56fbd5",null,!1,u["a"],r);e["default"]=l.exports},e89a:function(t,e,n){"use strict";n.d(e,"b",(function(){return o})),n.d(e,"c",(function(){return i})),n.d(e,"a",(function(){return u}));var u={uIcon:function(){return n.e("uview-ui/components/u-icon/u-icon").then(n.bind(null,"a077"))}},o=function(){var t=this,e=t.$createElement,n=(t._self._c,t.showLine?t.__get_style([t.lineStyle]):null);t.$mp.data=Object.assign({},{$root:{s0:n}})},i=[]},f832:function(t,e,n){"use strict";n.r(e);var u=n("7585"),o=n.n(u);for(var i in u)"default"!==i&&function(t){n.d(e,t,(function(){return u[t]}))}(i);e["default"]=o.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'uview-ui/components/u-section/u-section-create-component',
+    {
+        'uview-ui/components/u-section/u-section-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("d824"))
+        })
+    },
+    [['uview-ui/components/u-section/u-section-create-component']]
+]);

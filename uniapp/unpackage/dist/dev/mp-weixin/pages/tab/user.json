@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "u-cell-item": "/uview-ui/components/u-cell-item/u-cell-item"
+  },
+  "component": true
+}

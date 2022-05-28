@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "短视频去水印",
+  "navigationBarBackgroundColor": "#FD6B30",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#fff",
+  "usingComponents": {
+    "u-tabbar": "/uview-ui/components/u-tabbar/u-tabbar",
+    "home": "/pages/tab/home",
+    "host": "/pages/tab/host",
+    "md5": "/pages/tab/md5",
+    "recommend": "/pages/tab/recommend",
+    "user": "/pages/tab/user"
+  }
+}

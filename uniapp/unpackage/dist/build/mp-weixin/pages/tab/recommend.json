@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "u-section": "/uview-ui/components/u-section/u-section",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  },
+  "component": true
+}

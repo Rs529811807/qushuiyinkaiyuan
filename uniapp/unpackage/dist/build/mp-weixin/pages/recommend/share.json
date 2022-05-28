@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "分享好友",
+  "navigationBarBackgroundColor": "#FD6B30",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#fff",
+  "usingComponents": {
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  }
+}

@@ -1,0 +1,11 @@
+
+.bg{
+	background-color: #f8f8f9;
+}
+.panel{
+	background-color: #fff;
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 4rpx 4rpx 5rpx #e9eaec;
+}
+

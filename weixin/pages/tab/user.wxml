@@ -1,0 +1,1 @@
+<view><view class="UCenter-bg"><u-avatar vue-id="fc756870-1" bind:__l="__l"></u-avatar></view><button class="b-f btn" open-type="contact"><u-cell-item vue-id="fc756870-2" icon="server-man" color="#189f33" title="在线客服" bind:__l="__l"></u-cell-item></button><block wx:if="{{videoAdid}}"><view><ad unit-id="{{videoAdid}}" ad-type="video" ad-theme="white"></ad></view></block></view>

@@ -1,0 +1,57 @@
+{    
+	"easycom": {
+        "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+    },
+
+		"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "短视频去水印",
+				"navigationBarBackgroundColor": "#FD6B30",
+				"navigationBarTextStyle": "white",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/recommend/help",
+			"style": {
+				"navigationBarTitleText": "教程",
+				"navigationBarBackgroundColor": "#FD6B30",
+				"navigationBarTextStyle": "white",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/recommend/faq",
+			"style": {
+				"navigationBarTitleText": "常见问题",
+				"navigationBarBackgroundColor": "#FD6B30",
+				"navigationBarTextStyle": "white",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/recommend/md5faq",
+			"style": {
+				"navigationBarTitleText": "MD5常见问题",
+				"navigationBarBackgroundColor": "#FD6B30",
+				"navigationBarTextStyle": "white",
+				"backgroundColor": "#fff"
+			}
+		},{
+			"path": "pages/recommend/share",
+			"style": {
+				"navigationBarTitleText": "分享好友",
+				"navigationBarBackgroundColor": "#FD6B30",
+				"navigationBarTextStyle": "white",
+				"backgroundColor": "#fff"
+			}
+		}],
+
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff",
+		"backgroundColorTop": "#ffffff",
+		"backgroundColorBottom": "#ffffff"
+	}
+}
